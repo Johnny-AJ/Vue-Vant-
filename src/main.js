@@ -5,6 +5,9 @@ import store from './store';
 
 Vue.config.productionTip = false;
 
+import { Button, Swipe, SwipeItem, NavBar, Icon, Sticky,  Tabbar, TabbarItem } from 'vant';
+Vue.use(Button).use(Swipe).use(SwipeItem).use(NavBar).use(Icon).use(Sticky).use(Tabbar).use(TabbarItem);
+
 new Vue({
   router,
   store,
